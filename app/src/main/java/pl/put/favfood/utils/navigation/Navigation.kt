@@ -38,7 +38,7 @@ fun Navigation(
 
     val context = LocalContext.current
     if (!Places.isInitialized()) {
-        Places.initializeWithNewPlacesApiEnabled(context, "AIzaSyCxiDMXK_9_E0q2VzjNtHghWfupEsJu5aw")
+        Places.initializeWithNewPlacesApiEnabled(context, "API_KEY")
     }
     val placesClient = Places.createClient(context)
 
